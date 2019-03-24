@@ -1,0 +1,12 @@
+2019-03-24 23:31:06 INFO  InitiliazerClass:15 - negativeAuthtest1 == Starting==
+2019-03-24 23:31:12 INFO  InitiliazerClass:21 - negativeAuthtest1 Pass ******
+2019-03-24 23:31:12 INFO  InitiliazerClass:15 - negativeAuthtest2 == Starting==
+2019-03-24 23:31:13 INFO  InitiliazerClass:21 - negativeAuthtest2 Pass ******
+2019-03-24 23:31:13 INFO  InitiliazerClass:15 - AuthresponseCode == Starting==
+2019-03-24 23:31:14 INFO  InitiliazerClass:21 - AuthresponseCode Pass ******
+2019-03-24 23:31:14 INFO  InitiliazerClass:15 - AuthresponseContent == Starting==
+2019-03-24 23:31:15 INFO  InitiliazerClass:21 - AuthresponseContent Pass ******
+2019-03-24 23:31:15 INFO  InitiliazerClass:15 - getMyProfile == Starting==
+2019-03-24 23:31:16 INFO  InitiliazerClass:21 - getMyProfile Pass ******
+2019-03-24 23:31:16 INFO  InitiliazerClass:15 - setMyProfile == Starting==
+2019-03-24 23:31:17 INFO  InitiliazerClass:21 - setMyProfile Pass ******

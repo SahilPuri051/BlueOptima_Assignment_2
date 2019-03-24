@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13801" started-at="2019-03-24T18:05:45Z" finished-at="2019-03-24T18:05:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13801" started-at="2019-03-24T18:05:45Z" finished-at="2019-03-24T18:05:59Z">
+      <class name="com.qa.testcases.Authenticate_Test">
+        <test-method status="PASS" signature="Authenticate_Test()[pri:0, instance:com.qa.testcases.Authenticate_Test@4667ae56]" name="Authenticate_Test" is-config="true" duration-ms="1185" started-at="2019-03-24T18:05:45Z" finished-at="2019-03-24T18:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Authenticate_Test -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.Authenticate_Test@4667ae56]" name="setUp" is-config="true" duration-ms="17" started-at="2019-03-24T18:05:46Z" finished-at="2019-03-24T18:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeAuthtest1()[pri:1, instance:com.qa.testcases.Authenticate_Test@4667ae56]" name="negativeAuthtest1" duration-ms="7238" started-at="2019-03-24T18:05:46Z" finished-at="2019-03-24T18:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeAuthtest1 -->
+        <test-method status="PASS" signature="negativeAuthtest2()[pri:2, instance:com.qa.testcases.Authenticate_Test@4667ae56]" name="negativeAuthtest2" duration-ms="1053" started-at="2019-03-24T18:05:54Z" finished-at="2019-03-24T18:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeAuthtest2 -->
+        <test-method status="PASS" signature="AuthresponseCode()[pri:3, instance:com.qa.testcases.Authenticate_Test@4667ae56]" name="AuthresponseCode" duration-ms="1121" started-at="2019-03-24T18:05:55Z" finished-at="2019-03-24T18:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthresponseCode -->
+        <test-method status="PASS" signature="AuthresponseContent()[pri:4, instance:com.qa.testcases.Authenticate_Test@4667ae56]" name="AuthresponseContent" duration-ms="1038" started-at="2019-03-24T18:05:56Z" finished-at="2019-03-24T18:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthresponseContent -->
+      </class> <!-- com.qa.testcases.Authenticate_Test -->
+      <class name="com.qa.testcases.MyProfile_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.MyProfile_Test@77cd7a0]" name="setUp" is-config="true" duration-ms="3" started-at="2019-03-24T18:05:57Z" finished-at="2019-03-24T18:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getMyProfile()[pri:5, instance:com.qa.testcases.MyProfile_Test@77cd7a0]" name="getMyProfile" duration-ms="977" started-at="2019-03-24T18:05:57Z" finished-at="2019-03-24T18:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMyProfile -->
+        <test-method status="PASS" signature="setMyProfile()[pri:5, instance:com.qa.testcases.MyProfile_Test@77cd7a0]" name="setMyProfile" duration-ms="1019" started-at="2019-03-24T18:05:58Z" finished-at="2019-03-24T18:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setMyProfile -->
+      </class> <!-- com.qa.testcases.MyProfile_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
