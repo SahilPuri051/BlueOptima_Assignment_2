@@ -1,4 +1,8 @@
 com\qa\tests\APITest_GET.class
 com\qa\tests\APITest_PUT.class
-com\qa\tests\APITest_DELETE.class
 com\qa\tests\APITest_POST.class
+com\qa\testsupports\Authenticate_Support.class
+com\qa\testcases\MyProfile_Test.class
+com\qa\testcases\Authenticate_Test.class
+com\qa\tests\APITest_DELETE.class
+com\qa\testsupports\MyProfile_Support.class

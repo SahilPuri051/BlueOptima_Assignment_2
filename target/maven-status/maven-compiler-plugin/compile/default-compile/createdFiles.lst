@@ -1,3 +1,13 @@
+com\qa\pojo\Pojo_Profile_Post.class
+com\qa\utilities\RetryLogic.class
+com\qa\utilities\CustomListeners.class
+com\qa\pojo\Pojo_Token.class
 com\qa\pojo\pojoput.class
+com\qa\clientuniversal\InitiliazerClass.class
+com\qa\clientuniversal\Constants.class
 com\qa\clientuniversal\RestClient.class
+com\qa\testdata\readFromExcel.class
+com\qa\utilities\AnnotationTransformer.class
+com\qa\utilities\DataProviderClass.class
+com\qa\pojo\Pojo_Auth_Post.class
 com\qa\pojo\pojoget.class
