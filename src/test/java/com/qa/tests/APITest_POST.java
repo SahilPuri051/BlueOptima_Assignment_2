@@ -12,7 +12,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.JsonObject;
 import com.qa.clientuniversal.RestClient;
-import com.qa.pojo.pojoget;
+import com.qa.pojo.Pojoget_UNFINISHED;
 import com.qa.pojo.Pojo_Auth_Post;
 
 public class APITest_POST extends RestClient {

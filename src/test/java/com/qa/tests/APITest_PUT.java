@@ -9,17 +9,17 @@ import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.qa.clientuniversal.RestClient;
-import com.qa.pojo.pojoput;
+import com.qa.pojo.Pojoput_UNFINISHED;
 
 public class APITest_PUT {
 	RestClient rc;
-	String url="https://reqres.in";
+	String url="";
 	String apiurl;
 	
 	@Test(priority=2)
 	public void putApiTest() throws IOException
 	{
-		apiurl=url+"/api/users/2";
+		apiurl=url+"";
 		System.out.println("Hitting URL : "+apiurl);
 		
 		rc=new RestClient();
@@ -27,9 +27,9 @@ public class APITest_PUT {
 		headerMap.put("Content-Type","application/json");
 		
 		ObjectMapper mapper=new ObjectMapper();
-		pojoput p3=new pojoput();
-		p3.setJob("zion resident");
-		p3.setName("morpheus");
+		Pojoput_UNFINISHED p3=new Pojoput_UNFINISHED();
+		p3.setJob("");
+		p3.setName("");
 		
 
 
@@ -42,7 +42,7 @@ public class APITest_PUT {
 		System.out.println("Response Code is : "+response.getStatusLine().getStatusCode());
 		System.out.println("Response LINE is : "+response.getStatusLine());
 		
-		pojoput p4=mapper.readValue(resp,pojoput.class);
+		Pojoput_UNFINISHED p4=mapper.readValue(resp,Pojoput_UNFINISHED.class);
 		System.out.println("POJO OBJCT JOB VALUE IS :"+p4.getJob());
 		System.out.println("POJO OBJCT NAME VALUE IS :"+p4.getName());
 		System.out.println("POJO OBJCT UPDATED AT IS :"+p4.getUpdatedAt());

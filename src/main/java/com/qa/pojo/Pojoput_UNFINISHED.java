@@ -1,6 +1,6 @@
 package com.qa.pojo;
 
-public class pojoput {
+public class Pojoput_UNFINISHED {
 	String name;
 	String job;
 	String updatedAt;

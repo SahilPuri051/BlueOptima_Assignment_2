@@ -1,6 +1,6 @@
 package com.qa.pojo;
 
-public class pojoget {
+public class Pojoget_UNFINISHED {
 
 	String name;
 	String job;
